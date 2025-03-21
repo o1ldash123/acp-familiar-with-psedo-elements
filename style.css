@@ -1,0 +1,34 @@
+#color{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    
+    }
+
+    @keyframes pallete {
+        2%{background-color: aquamarine;}
+        3%{background-color:red ;}
+        4%{background-color:yellow ;}
+        7%{background-color:gold ;}
+        9%{background-color:green ;}
+        10%{background-color:indigo ;}
+        11%{background-color:violet ;}
+    }
+
+    div:hover{
+        animation-name: pallete;
+        animation-duration: 10s;
+    }
+ 
+    h1::first-letter{
+     color: aqua;
+     
+    }
+    
+    p{
+    font-family: cursive;
+
+    }
+
+    keyfr
+    
