@@ -59,8 +59,10 @@
     animation-duration: 10s;
     animation-timing-function: 3sc;
     animation-iteration-count: infinite;
+    font-family: sans-serif;
     }
     h2{
+        font-family: sans-serif;
     animation-name: pallete ;
     animation-duration: 10s;
     animation-iteration-count: infinite;
@@ -73,8 +75,10 @@
         animation-iteration-count: infinite;
     }
     
-    h1{
-    content:'🖌️';
-
+    h1::after{
+    content:'🎨';
+    }
+    p::after{
+    content:'😄';
 
     }
