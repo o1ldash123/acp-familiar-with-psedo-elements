@@ -5,7 +5,7 @@
     
     }
 
-    @keyframes pallete {
+    @keyframes palletes {
         2%{background-color: aquamarine;}
         3%{background-color:red ;}
         4%{background-color:yellow ;}
@@ -14,10 +14,35 @@
         10%{background-color:indigo ;}
         11%{background-color:violet ;}
     }
+    @keyframes pallete {
+        2%{color: aquamarine;}
+        3%{color:red ;}
+        4%{color:yellow ;}
+        7%{color:gold ;}
+        9%{color:green ;}
+        10%{color:indigo ;}
+        11%{color:violet ;}
+    }
+    @keyframes rotation {
+     1%{rotate: 36deg;}
+     2%{rotate:72deg ;}
+     3%{rotate: 108deg;}
+     4%{rotate: 144deg;}
+     5%{rotate: 180deg;}
+     6%{rotate:216deg}
+     7%{rotate:252deg;}
+     8%{rotate: 288deg;}
+     9%{rotate: 324deg;}
+     10%{rotate: 360deg;}
+    
+
+    }
+ 
 
     div:hover{
-        animation-name: pallete;
+        animation-name: rotation;
         animation-duration: 10s;
+        
     }
  
     h1::first-letter{
@@ -29,6 +54,27 @@
     font-family: cursive;
 
     }
+    h1{
+    animation-name:pallete;
+    animation-duration: 10s;
+    animation-timing-function: 3sc;
+    animation-iteration-count: infinite;
+    }
+    h2{
+    animation-name: pallete ;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 
-    keyfr
+    }
+
+    div{
+        animation-name:palletes; 
+        animation-duration:10s;
+        animation-iteration-count: infinite;
+    }
     
+    h1{
+    content:'🖌️';
+
+
+    }
